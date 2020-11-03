@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+    <ImageView
+       android:id="@+id/imageView2"
+       android:layout_width="match_parent"
+       android:layout_height="206dp"
+       android:layout_marginTop="@dimen/cardview_compat_inset_shadow"
+       app:srcCompat="@drawable/ic_baseline_person_outline_24" tools:ignore="MissingConstraints" />
+
+
+
+    <EditText
+    android:id="@+id/image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:layout_marginTop="10dp"
+    android:inputType="textPersonName"
+    android:hint="Image"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+    android:id="@+id/nom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:layout_marginTop="10dp"
+    android:inputType="textPersonName"
+    android:hint="Nom"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+          android:id="@+id/tele"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:layout_marginTop="10dp"
+          android:inputType="textPersonName"
+          android:hint="telephone"
+          tools:ignore="MissingConstraints" />
+
+     <EditText
+         android:id="@+id/web"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:layout_marginTop="10dp"
+         android:inputType="textPersonName"
+         android:hint="website"
+         tools:ignore="MissingConstraints" />
+
+   <EditText
+      android:id="@+id/add"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:layout_marginTop="10dp"
+      android:inputType="textPersonName"
+      android:hint="Addresse"
+       tools:ignore="MissingConstraints" />
+
+   <EditText
+       android:id="@+id/pro"
+       android:layout_width="match_parent"
+       android:layout_height="86dp"
+       android:ems="10"
+       android:layout_marginTop="10dp"
+       android:inputType="textPersonName"
+       android:hint="A propose de moi"
+       tools:ignore="MissingConstraints" />
+
+ <Button
+      android:id="@+id/enre"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="ENREGESTRER" />
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
